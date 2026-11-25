@@ -10,9 +10,8 @@ ENTRY is written on every run.
 import os
 
 ENTRY = (
-    "Our printer only jams when the CEO visits, so I have started "
-    "introducing it to new hires as the office's most reliable "
-    "early-warning system."
+    "Our printer only jams when the CEO visits, so I introduce it to "
+    "new hires as the office's most reliable early-warning system."
 )
 
 assert 1 <= len(ENTRY) <= 199, "ENTRY must be 1-199 characters"
